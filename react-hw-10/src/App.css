@@ -1,0 +1,135 @@
+.mainBox{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 30px;
+  width: 270px;
+  background-color: rgb(111, 121, 118);
+    height: 100vh;
+    align-items: center;
+}
+
+.inputsbox{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.midleBox{
+  display: flex;
+}
+
+.mainTitle{
+  color: white;
+}
+
+.userNameInput,
+.course{
+  border-radius: 8px;
+  padding: 12px 4px;
+  border: none;
+}
+
+.title{
+  color: white;
+  text-align: center;
+}
+
+.radio{
+  padding: 4px;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
+  color: white;
+}
+
+.radio:nth-child(5){
+  border-right: 2px solid rgb(255, 255, 255);
+}
+
+.radio:nth-child(2) {
+  border-left: 2px solid rgb(255, 255, 255);
+}
+
+.check{
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  margin-top: 24px;
+}
+
+.btn{
+  padding: 12px 48px;
+  font-size: 18px;
+  border-radius: 16px;
+  border: none;
+  color: rgb(76, 82, 80);
+}
+
+.infoBox{
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.infoTitle{
+  text-align: center;
+  font-size: 32px;
+  color: rgb(76, 82, 80);
+}
+
+.error{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 24px;
+  color: rgb(138, 12, 12);
+  font-weight: 700;
+}
+
+.item{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 36px;
+  justify-content: center;
+  background-color: rgb(76, 82, 80);
+  border-radius: 100px;
+}
+
+.userName{
+  color: rgb(76, 82, 80);
+  padding: 8px 36px;
+  background-color: white;
+  border-radius: 24px;
+}
+.userGroup {
+  color: rgb(76, 82, 80);
+  padding: 8px 36px;
+  background-color: white;
+  border-radius: 24px;
+}
+.userCourse {
+  color: rgb(76, 82, 80);
+  padding: 8px 36px;
+  background-color: white;
+  border-radius: 24px;
+}
+.userCheck {
+  color: rgb(76, 82, 80);
+  padding: 8px 36px;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
